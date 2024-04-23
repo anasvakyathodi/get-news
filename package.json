@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.19.2",
     "node-mailjet": "^6.0.5",
     "rss-parser": "^3.13.0"
   },
