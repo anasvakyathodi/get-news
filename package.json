@@ -1,0 +1,13 @@
+{
+  "name": "fetch-news",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-mailjet": "^6.0.5",
+    "rss-parser": "^3.13.0"
+  },
+  "scripts": {
+    "get-news": "node generate-news"
+  }
+}
