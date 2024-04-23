@@ -20,3 +20,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run get-news
+      - run: sh ./run.sh
