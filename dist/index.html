@@ -50,7 +50,7 @@
     </div>
 
     <script>
-        fetch('https://ai-news-5hph.onrender.com//list')
+        fetch('https://ai-news-5hph.onrender.com/list')
             .then(response => response.json())
             .then(data => {
                 var cardList = document.getElementById('card-list');
@@ -62,7 +62,7 @@
                     title.textContent = item.source;
                     var link = document.createElement('a');
                     link.className = 'card-link';
-                    link.href = `https://ai-news-5hph.onrender.com//news.html?source=${item.source}`;
+                    link.href = `https://ai-news-5hph.onrender.com/news.html?source=${item.source}`;
                     link.textContent = 'Show News';
                     var description = document.createElement('p');
                     description.textContent = item.description;
