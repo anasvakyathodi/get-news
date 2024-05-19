@@ -101,7 +101,7 @@
         const loader = document.getElementById('loader');
         const newsContainer = document.getElementById('newsContainer');
 
-        fetch(`http://localhost:3000/get-news${window.location.search}`)
+        fetch(`https://ai-news-5hph.onrender.com//get-news${window.location.search}`)
             .then(response => response.json())
             .then(data => {
                 loader.style.display = 'none'; // Hide the loader once data is fetched
